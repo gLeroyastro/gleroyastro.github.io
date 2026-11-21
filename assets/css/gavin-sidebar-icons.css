@@ -1,0 +1,36 @@
+/* Restore clearly visible Academic Pages profile icons, including on mobile.
+   This stylesheet does not change the hero, navigation, or footer layout. */
+.gl-home .gl-profile-sidebar .author__urls li > i.fas,
+.gl-home .gl-profile-sidebar .author__urls li > i.fab,
+.gl-home .gl-profile-sidebar .author__urls li > i.fa,
+.gl-home .gl-profile-sidebar .author__urls li > i.ai,
+.gl-home .gl-profile-sidebar .author__urls li a > i.fas,
+.gl-home .gl-profile-sidebar .author__urls li a > i.fab,
+.gl-home .gl-profile-sidebar .author__urls li a > i.fa,
+.gl-home .gl-profile-sidebar .author__urls li a > i.ai {
+  display: inline-block !important;
+  width: 1.45em;
+  min-width: 1.45em;
+  margin-right: 0.2rem;
+  padding-right: 0;
+  opacity: 1 !important;
+  visibility: visible !important;
+  text-align: center;
+  font-size: 1.05em;
+  color: #286c92;
+  vertical-align: baseline;
+}
+
+.gl-home .gl-profile-sidebar .author__urls li {
+  display: block;
+  margin: 0.42rem 0;
+}
+
+.gl-home .gl-profile-sidebar .author__urls li a {
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
+.gl-home .gl-profile-sidebar .author__urls li a:hover {
+  text-decoration: underline;
+}

@@ -40,6 +40,10 @@
 
         {% if post.collection == 'teaching' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+        {% elsif post.collection == 'publications' and post.category == 'submitted' %}
+          <p><i>{{ post.venue }}</i></p>
+        {% elsif post.collection == 'publications' and post.category == 'theses' %}
+          <p><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
           <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.date %}
@@ -55,6 +59,7 @@
     {% include /components/citations.html
         citation=post.citation
         paperurl=post.paperurl
+        arxivurl=post.arxivurl
         slidesurl=post.slidesurl
         bibtexurl=post.bibtexurl
     %}    

@@ -2,10 +2,13 @@
 {% if include.citation %}
 Recommended citation: {{ include.citation }}<br />
 {% endif %}
-<!-- Create the variable so it exists in the event there is no citation -->
+<!-- Reset the variable on every call: Liquid variables persist between loop iterations -->
 {% assign block = "" %}
 {% if include.paperurl %}
-{% capture block %}{{ block }}<a href="{{ include.paperurl }}">Download Paper</a> | {% endcapture %}
+{% capture block %}{{ block }}<a href="{{ include.paperurl }}">Read paper</a> | {% endcapture %}
+{% endif %}
+{% if include.arxivurl %}
+{% capture block %}{{ block }}<a href="{{ include.arxivurl }}">arXiv preprint</a> | {% endcapture %}
 {% endif %}
 {% if include.slidesurl %}
 {% capture block %}{{ block }}<a href="{{ include.slidesurl }}">Download Slides</a> | {% endcapture %}

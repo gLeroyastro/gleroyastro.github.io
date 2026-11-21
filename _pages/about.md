@@ -68,6 +68,7 @@ redirect_from:
     <div>
       <p>My work spans the full analysis chain: image calibration and systematic effects in Euclid VIS, galaxy-shape measurements, weak-lensing mass reconstruction, and signal-processing and machine-learning methods for cluster detection.</p>
       <p>I contribute to the <strong>Euclid Consortium</strong>, <strong>COSMOS-Web</strong>, <strong>SuperBIT</strong> and <strong>SLICE</strong>, collaborating across international teams to turn new observations into reliable measurements of cosmic structure.</p>
+      <p>In Euclid, I lead the DR1 weak-lensing cluster-catalogue key paper (a team of about 15 researchers) and co-lead the DR1 key project on self-interacting dark matter, which spans four working groups and about 30 researchers.</p>
       <a class="gl-text-link" href="{{ '/research/' | relative_url }}">Learn more about my research →</a>
     </div>
   </section>

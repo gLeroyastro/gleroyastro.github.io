@@ -23,9 +23,10 @@ This public CV summarises selected academic experience. For more details, see my
 
 ## Selected research leadership
 
-- **Since 2025:** Co-lead of a Euclid DR1 key project investigating self-interacting dark matter using galaxy clusters, including the study of merging clusters.
-- **Since 2024:** Lead of the Euclid DR1 weak-lensing galaxy-cluster catalogue key paper.
-- **Since 2024:** Contributions to Euclid VIS data calibration, Charge Transfer Inefficiency correction, and quality control.
+- **Since 2025:** Co-lead of Euclid Key Project KP-DR1-CL-8 on self-interacting dark matter in galaxy clusters, coordinating **four working groups (about 30 researchers)** and running its regular meetings; lead of its paper on merging clusters.
+- **Since 2024:** Lead of Euclid Key Paper KP-DR1-CL7-1, the DR1 weak-lensing galaxy-cluster catalogue, with a team of **about 15 researchers**.
+- Co-lead, with A. Manjón-García, of a three-year Euclid challenge comparing **ten** weak-lensing cluster-detection algorithms (paper submitted).
+- **Since 2024:** Member of the Euclid VIS operational unit (OU-VIS): Charge Transfer Inefficiency correction, its time-evolution pipeline, calibration and quality control.
 - **Since 2024:** COSMOS-Web galaxy-shape calibration and dark-matter mass-map reconstruction; SuperBIT and SLICE collaboration work on gravitational lensing and mass mapping.
 
 ## Selected publications
@@ -42,17 +43,26 @@ See the [Publications page](/publications/) for the selected-paper archive.
 - **2026:** Royal Astronomical Society selection grant for the Royal Society Summer Science Exhibition.
 - **2025:** Physics Department Excellence Award, Durham University.
 - **2024:** Euclid-UK SGS postdoctoral fellowship, Durham University.
-- **2023:** DEDIP research funding grant, CEA Paris-Saclay.
-- **2021:** Second prize, *Ma thèse en 5 minutes*, *Ciel & Espace*.
+- **2024:** First prize, SLICE collaboration logo competition.
+- **2023:** Additional research time and one month of funding (DEDIP), CEA Paris-Saclay.
+- **2021:** Second prize, *Ma thèse en 5 minutes* (PhD research in five minutes), *Ciel & Espace*.
+- **2020:** Joint second prize, *Mon stage en 3 minutes* (internship research in three minutes), Fondation Mines-Télécom.
+- **2020:** Euclid equipment and travel grant, CEA Paris-Saclay.
 
 ## Teaching and supervision
 
-Master's-level teaching at Durham University in machine learning, scientific computing and high-performance computing (2024–2025). Earlier undergraduate teaching in optics, electronics and metrology at IUT d'Orsay (2021–2022). Co-supervision of PhD and engineering students.
+Master's-level practical classes at Durham University in machine learning, scientific computing and high-performance computing (2024–2025; 16 h per course, 60–70 students each). Undergraduate practical classes in optics, electronics and metrology at IUT d'Orsay (2021–2022; 32 h per course). Co-supervision of a PhD project and an engineering internship. Admissions examiner and interview coach at IMT Atlantique since 2024.
 
 See [Teaching](/teaching-overview/).
 
 ## Academic service and outreach
 
-Activities include committee and event organisation for Euclid, Durham Astrophysics and the National Astronomy Meeting; machine-learning and professional-development seminars; and public engagement through planetarium shows and the Royal Society Summer Science Exhibition.
+Organising and scientific committees for the National Astronomy Meeting 2025, DEX, ASTRODAT, SLICE and Euclid meetings; Euclid early-career committee; postdoc representative on Durham's machine-learning committee; founder of the *Scraps of Science* seminar series; public engagement through planetarium shows, science festivals and the Royal Society Summer Science Exhibition.
 
-See [Talks](/selected-talks/) and [Outreach](/outreach/).
+See [Service & leadership](/service/), [Talks](/selected-talks/) and [Outreach](/outreach/).
+
+## Skills
+
+- **Programming:** Python, C, C++; parallel and high-performance computing.
+- **Methods:** weak-lensing mass reconstruction, multiscale (wavelet) image analysis, signal processing, inverse problems, machine learning (including convolutional neural networks), computer vision.
+- **Languages:** French, English.

@@ -7,6 +7,23 @@ redirect_from:
   - /about.html
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/gavin-home.css' | relative_url }}">
+
+<div class="gavin-home">
+  <section class="gavin-hero" aria-labelledby="gavin-name">
+    <div class="gavin-hero-text">
+      <p class="gavin-eyebrow">Durham University · Observational cosmology</p>
+      <h1 id="gavin-name">Gavin Leroy</h1>
+      <p class="gavin-subtitle">Mapping the invisible Universe</p>
+      <p class="gavin-lede">I study dark matter and the growth of cosmic structure using gravitational lensing — from the shapes of distant galaxies to the mass distribution of galaxy clusters.</p>
+      <div class="gavin-actions">
+        <a class="gavin-button gavin-button-primary" href="{{ '/research/' | relative_url }}">Explore my research</a>
+        <a class="gavin-button gavin-button-outline" href="{{ '/publications/' | relative_url }}">Publications</a>
+      </div>
+    </div>
+    <div class="gavin-orbit" aria-hidden="true"><div class="gavin-orbit-center"></div></div>
+  </section>
+
 <section class="gavin-section" aria-labelledby="gavin-about-title">
     <p class="gavin-kicker">ABOUT ME</p>
     <h2 id="gavin-about-title">From telescope images to dark-matter maps</h2>

@@ -16,8 +16,6 @@ main:
     url: /selected-talks/
   - title: "Teaching"
     url: /teaching-overview/
-  - title: "Service"
-    url: /service/
   - title: "Press"
     url: /press/
   - title: "Outreach"

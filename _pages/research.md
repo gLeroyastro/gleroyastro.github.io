@@ -12,29 +12,31 @@ My work is centred on **observational cosmology**, especially what **gravitation
 
 Mass deflects light from distant galaxies. By measuring the coherent, extremely small distortions in the shapes of background galaxies, weak gravitational lensing enables us to map matter without assuming that it emits light. My PhD at **Université Paris-Saclay and CEA Saclay (2020–2023)** focused on building a catalogue of galaxy clusters detected through their weak-lensing signal for Euclid.
 
-I developed and compared multiscale detection techniques for lensing mass maps, including a wavelet-based approach optimised for cluster detection. This work led to my 2023 first-author paper in *Astronomy & Astrophysics*.
+I developed and compared multiscale detection techniques for lensing mass maps, including a wavelet-based approach optimised for cluster detection. This work led to my 2023 first-author paper in *Astronomy & Astrophysics*. I then applied the method to real data from the Hyper Suprime-Cam Subaru Strategic Program (HSC-SSP).
+
+With Alberto Manjón-García, I co-led a **three-year challenge comparing ten detection algorithms** within a Euclid working group, to select the methods that will run on real Euclid data. The resulting paper, on which I am an equal-contribution author, has been submitted.
 
 [Read the 2023 paper](https://doi.org/10.1051/0004-6361/202346510) · [PhD thesis](https://theses.hal.science/tel-04536654)
 
 ## Euclid: cluster catalogues and instrumental calibration
 
-Within the **Euclid Consortium**, I lead the key paper on constructing a galaxy-cluster catalogue from weak lensing in Euclid Data Release 1. This involves coordinating the application and comparison of detection algorithms with colleagues working on mass measurements, optical detections and cluster morphology.
+Within the **Euclid Consortium**, I lead the key paper on constructing a galaxy-cluster catalogue from weak lensing in Euclid Data Release 1 (KP-DR1-CL7-1). I run a team of **about 15 researchers** applying the selected detection algorithms, working closely with the groups responsible for mass measurement, optical cluster detection and cluster morphology.
 
-I also work in the Euclid VIS instrument ground-segment operational unit on **Charge Transfer Inefficiency (CTI)**. Radiation-induced charge-transfer effects can bias galaxy shapes and therefore precision weak-lensing measurements. My role includes correction, calibration, validation and quality control of the VIS processing chain.
+I also work in the Euclid VIS instrument ground-segment operational unit on **Charge Transfer Inefficiency (CTI)**. Radiation-induced charge-transfer effects can bias galaxy shapes and therefore precision weak-lensing measurements. My role includes correction, calibration, validation and quality control of the VIS processing chain, including the pipeline that tracks how CTI evolves over time. I validated the CTI correction for Euclid's first Quick Data Release (Q1).
 
 ## Dark-matter maps with JWST COSMOS-Web
 
-I am part of the **COSMOS-Web collaboration**, contributing to the calibration and validation of galaxy-shape measurements and to dark-matter mass-map reconstruction. In our 2026 *Nature Astronomy* study, JWST data made it possible to map projected matter at exceptionally high resolution. I contributed to the reconstruction and to identifying and validating galaxy groups and clusters in the resulting map.
+I am part of the **COSMOS-Web collaboration**, contributing to the calibration and validation of galaxy-shape measurements and to dark-matter mass-map reconstruction. In our 2026 *Nature Astronomy* study, JWST data made it possible to map projected matter at exceptionally high resolution. I reconstructed the mass map with the improved KS+ method (the paper's main figure), applied my multiscale detection algorithm to produce the first catalogue of galaxy groups and clusters in it, and validated that catalogue against X-ray and optical data.
 
 [Read the Nature Astronomy paper](https://doi.org/10.1038/s41550-025-02763-9)
 
 ## Merging clusters and self-interacting dark matter
 
-Galaxy-cluster mergers provide a way to investigate whether dark matter interacts with itself, beyond its gravitational effects. I co-lead Euclid's **DR1 key project on self-interacting dark matter in galaxy clusters**, coordinating researchers across working groups and leading work on merging systems. Related projects with **SuperBIT** and **SLICE** combine weak-lensing mass reconstruction with other information to investigate cluster structure and dynamics.
+Galaxy-cluster mergers provide a way to investigate whether dark matter interacts with itself, beyond its gravitational effects. I co-lead Euclid's **DR1 key project on self-interacting dark matter in galaxy clusters** (KP-DR1-CL-8). It sits at the interface of **four working groups (about 30 researchers)**: I organise its regular meetings and steer the scientific preparation for the first year of Euclid data. I also lead the project's paper on merging clusters. Related projects with **SuperBIT** and **SLICE** combine weak-lensing mass reconstruction with other information to investigate cluster structure and dynamics.
 
 ## Signal processing and machine learning
 
-My background in physics, signal processing and machine learning informs my research methods: multiscale image analysis, detection algorithms, quantitative comparison of pipelines, and careful treatment of observational systematics. I also contribute to machine-learning seminars and training at Durham University.
+My background in physics, signal processing and machine learning informs my research methods: multiscale image analysis, detection algorithms, quantitative comparison of pipelines, and careful treatment of observational systematics. I have also explored convolutional neural networks for finding clusters in convergence maps, and I represent postdocs on Durham's astrophysics machine-learning committee, where I run a training workshop for PhD students.
 
 ## Research collaborations
 

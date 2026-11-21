@@ -73,6 +73,13 @@ body:has(> .gl-home) > .gl-home {
   margin: 0;
   padding: 0;
 }
+/* On every page, keep the footer in the normal flow. The theme fixes it to the
+   bottom of the screen and relies on jQuery to pad the page, so without that
+   script it covered the last ~110 px of every inner page. */
+body > .page__footer {
+  position: relative !important;
+  bottom: auto !important;
+}
 body:has(> .gl-home) > .page__footer {
   box-sizing: border-box;
   position: relative !important;

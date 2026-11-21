@@ -8,7 +8,7 @@ redirect_from:
 author_profile: true
 ---
 
-A selection of invited seminars, presentations and scientific meetings from my CV.
+Invited seminars, conference talks and posters on dark-matter cartography, weak lensing and galaxy-cluster detection.
 
 ## 2026
 
@@ -21,17 +21,33 @@ A selection of invited seminars, presentations and scientific meetings from my C
 ## 2025
 
 - **Dark matter cartography: challenges and future developments** — Invited seminar, CRIStAL / SIGMA, Lille.
-- **The golden era of weak lensing: from pixels to cosmology** — Invited seminar, Observatoire LAGRANGE, Nice.
-- **High-resolution dark matter cartography with JWST** — National Astronomical Meeting, Durham; COSMOS-Web Annual Meeting, Marseille.
+- **The golden era of weak lensing: from pixels to cosmology** — Invited seminar, Observatoire Lagrange, Nice.
+- **Status of the CTI correction and time-evolution pipeline** — Invited presentation, Euclid OU-VIS meeting, Institut d'Astrophysique de Paris.
+- **High-resolution dark matter cartography with JWST** — Talk and poster, National Astronomy Meeting 2025, Durham; also presented at the COSMOS-Web annual meeting, LAM, Marseille.
+- **The highest-resolution dark matter map with JWST** — DEX annual meeting, Newcastle.
 - **CTI correction for Euclid** — 8th Radiation Damage Workshop, Chicheley Hall.
-- **Probing self-interacting dark matter with galaxy clusters** — Euclid France, CEA Paris-Saclay.
+- **Probing self-interacting dark matter with galaxy clusters** — Euclid France 2025, CEA Paris-Saclay.
 
-## 2024 and earlier
+## 2024
 
-- **Dark matter cartography and galaxy-cluster detection** — Invited seminar, University of Oxford (2024).
-- **Towards a weak-lensing selected galaxy-cluster catalogue for Euclid DR1** — Euclid UK (2024).
-- **Galaxy-cluster detection via weak lensing: a fast multiscale approach** — Invited seminar, Institut d'Astrophysique Spatiale (2023).
-- **Galaxy-cluster detection via weak lensing** — Invited seminar, Max Planck Institute for Extraterrestrial Physics (2023).
-- **Multiscale approach for galaxy-cluster detection** — Euclid Galaxy Clusters Working Group meeting, Tenerife (2022).
+- **Dark matter cartography and galaxy-cluster detection** — Invited seminar, BPAC, University of Oxford.
+- **Invited seminar** — Astrophysics department, Durham University.
+- **Status of the galaxy-cluster detection challenge** — Invited presentation, Euclid Galaxy Clusters Science Working Group annual meeting, Innsbruck.
+- **Status of the CTI correction for Euclid UK** — Invited presentation, Euclid UK CTI meeting.
+- **Towards a weak-lensing selected galaxy-cluster catalogue for Euclid DR1** — Euclid UK 2024, London.
 
-For collaborations and scientific context, see [Research](/research/).
+## 2023
+
+- **Galaxy-cluster detection with weak lensing: towards a Euclid weak-lensing selected catalogue** — PhD defence, Université Paris-Saclay.
+- **Galaxy-cluster detection via weak lensing: a fast multiscale approach** — Invited seminar, Institut d'Astrophysique Spatiale, Orsay.
+- **Galaxy-cluster detection via weak lensing** — Invited seminar, Max Planck Institute for Extraterrestrial Physics (MPE), Munich.
+- **Weak-lensing selected galaxy-cluster catalogue for Euclid** — Euclid France 2023, IAP, Paris.
+- **Galaxy-cluster detection via their weak-lensing signal** — Elbereth conference, IAP, Paris.
+
+## 2022 and 2021
+
+- **Multiscale approach for galaxy-cluster detection** — Invited presentation, Euclid Galaxy Clusters Science Working Group annual meeting, IAC, Tenerife (2022).
+- **Poster** — STScI Spring Symposium, Baltimore (2022).
+- **Multiscale approach for galaxy-cluster detection** — Euclid France 2021, LPSC, Grenoble (2021).
+
+For the science behind these talks, see [Research](/research/).

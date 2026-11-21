@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: ""
-author_profile: true
+author_profile: false
 redirect_from:
   - /about/
   - /about.html
@@ -26,12 +26,6 @@ redirect_from:
       <a class="btn btn--primary" href="/research/">Explore my research</a>
       <a class="btn btn--light-outline" href="/cv/">View CV</a>
     </div>
-    <ul class="gavin-hero__highlights">
-      <li>Euclid Consortium</li>
-      <li>JWST COSMOS-Web</li>
-      <li>SuperBIT</li>
-      <li>SLICE</li>
-    </ul>
   </div>
 
   <div class="gavin-hero__visual">
@@ -47,7 +41,6 @@ redirect_from:
 <section class="page__content">
 
 <section class="gavin-section" aria-labelledby="gavin-about-title">
-    <p class="gavin-kicker">ABOUT ME</p>
     <h2 id="gavin-about-title">From telescope images to dark-matter maps</h2>
     <p class="gavin-intro">I am a <strong>postdoctoral researcher in astrophysics and cosmology at Durham University</strong>, based at the Institute for Computational Cosmology and the Centre for Extragalactic Astronomy. My research explores what galaxy clusters can tell us about dark matter, the formation of cosmic structures and the evolution of the Universe.</p>
     <p class="gavin-intro">I combine weak gravitational lensing, signal processing and machine-learning methods to detect galaxy clusters and reconstruct the underlying distribution of matter. My work spans the entire analysis chain: calibrating space-telescope images, measuring galaxy shapes, developing detection algorithms and interpreting the resulting mass maps.</p>

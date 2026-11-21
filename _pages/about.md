@@ -9,20 +9,42 @@ redirect_from:
 
 <link rel="stylesheet" href="{{ '/assets/css/gavin-home.css' | relative_url }}">
 
-<div class="gavin-home">
-  <section class="gavin-hero" aria-labelledby="gavin-name">
-    <div class="gavin-hero-text">
-      <p class="gavin-eyebrow">Durham University · Observational cosmology</p>
-      <h1 id="gavin-name">Gavin Leroy</h1>
-      <p class="gavin-subtitle">Mapping the invisible Universe</p>
-      <p class="gavin-lede">I study dark matter and the growth of cosmic structure using gravitational lensing — from the shapes of distant galaxies to the mass distribution of galaxy clusters.</p>
-      <div class="gavin-actions">
-        <a class="gavin-button gavin-button-primary" href="{{ '/research/' | relative_url }}">Explore my research</a>
-        <a class="gavin-button gavin-button-outline" href="{{ '/publications/' | relative_url }}">Publications</a>
-      </div>
+<section class="gavin-hero">
+  <div class="gavin-hero__content">
+    <p class="gavin-hero__eyebrow">POSTDOCTORAL RESEARCHER · ASTROPHYSICS & COSMOLOGY</p>
+    <h1 class="gavin-hero__title">Gavin Leroy</h1>
+    <p class="gavin-hero__lead">
+      I am a postdoctoral researcher in astrophysics and cosmology at Durham University,
+      working with the Institute for Computational Cosmology and the Centre for Extragalactic Astronomy.
+    </p>
+    <p class="gavin-hero__text">
+      My research focuses on gravitational lensing, galaxy clusters, and dark matter cartography.
+      I develop methods that combine observational cosmology, signal processing, and machine learning
+      to reconstruct the distribution of matter in the Universe and detect galaxy clusters in next-generation surveys.
+    </p>
+    <div class="gavin-hero__actions">
+      <a class="btn btn--primary" href="/research/">Explore my research</a>
+      <a class="btn btn--light-outline" href="/cv/">View CV</a>
     </div>
-    <div class="gavin-orbit" aria-hidden="true"><div class="gavin-orbit-center"></div></div>
-  </section>
+    <ul class="gavin-hero__highlights">
+      <li>Euclid Consortium</li>
+      <li>JWST COSMOS-Web</li>
+      <li>SuperBIT</li>
+      <li>SLICE</li>
+    </ul>
+  </div>
+
+  <div class="gavin-hero__visual">
+    <div class="map-reveal" id="map-reveal"
+         style="--map-base: url('/images/massmap-base.jpg'); --map-overlay: url('/images/massmap-contours.jpg');">
+      <div class="map-reveal__base" aria-hidden="true"></div>
+      <div class="map-reveal__overlay" aria-hidden="true"></div>
+      <div class="map-reveal__scrim" aria-hidden="true"></div>
+      <div class="map-reveal__hint">Hover to reveal contours</div>
+    </div>
+  </div>
+</section>
+<section class="page__content">
 
 <section class="gavin-section" aria-labelledby="gavin-about-title">
     <p class="gavin-kicker">ABOUT ME</p>

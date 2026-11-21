@@ -9,8 +9,6 @@ author_profile: true
 
 <div class="gavin-press">
   <header class="gavin-press-hero">
-    <p class="gavin-press-kicker">RESEARCH IN THE NEWS</p>
-    <h1>Press &amp; Media</h1>
     <p>From mapping dark matter with the James Webb Space Telescope to preparing Euclid's images for cosmology, I enjoy sharing the science behind our research with wider audiences. Below is a selection of coverage of my work and collaborations.</p>
   </header>
 

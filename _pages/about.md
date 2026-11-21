@@ -2,6 +2,8 @@
 layout: gavin-home
 permalink: /
 title: "About Me"
+seo_title: "Dr. Gavin Leroy – Astrophysicist, Durham University"
+description: "Gavin Leroy is a postdoctoral researcher at Durham University who maps dark matter and finds galaxy clusters using gravitational lensing in Euclid and JWST data."
 author_profile: true
 redirect_from:
   - /about/

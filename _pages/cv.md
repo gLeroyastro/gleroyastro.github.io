@@ -2,6 +2,7 @@
 layout: single
 permalink: /cv/
 title: "Curriculum Vitae"
+description: "Academic CV of Gavin Leroy, PhD: postdoctoral researcher in astrophysics at Durham University, Euclid key-paper lead and weak-lensing specialist."
 author_profile: true
 ---
 

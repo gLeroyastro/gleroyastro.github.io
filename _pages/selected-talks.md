@@ -2,6 +2,9 @@
 layout: single
 permalink: /selected-talks/
 title: "Selected Talks"
+description: "Invited seminars and conference talks by Gavin Leroy on dark-matter cartography, weak lensing and galaxy-cluster detection."
+redirect_from:
+  - /talks/
 author_profile: true
 ---
 

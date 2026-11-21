@@ -1,4 +1,9 @@
-<script type="module" src="{{ base_path }}/assets/js/main.min.js"></script>
+{% comment %}
+The theme bundle (assets/js/main.min.js) needs jQuery, which this site no longer loads,
+so it only threw "$ is not defined". The features this site uses from it (the sidebar
+"Follow" toggle on small screens) live in gavin-site.js, which has no dependencies.
+{% endcomment %}
+<script defer src="{{ base_path }}/assets/js/gavin-site.js"></script>
 
 {% include analytics.html %}
 

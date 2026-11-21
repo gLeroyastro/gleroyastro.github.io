@@ -63,5 +63,6 @@ jobs:
     needs: build
     steps:
       - name: Deploy to GitHub Pages
+  # Enable Academic Pages deployment
         id: deployment
         uses: actions/deploy-pages@v5

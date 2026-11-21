@@ -1,10 +1,24 @@
-<!-- Academic Pages profile / social icons.
-     Restores Font Awesome and Academicons, which are used by
-     _includes/author-profile.html and footer.html. -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.4/css/academicons.min.css">
+{% include base_path %}
 
-<!-- Gavin Leroy custom layout styles; preserve these existing imports. -->
+<!-- start custom head snippets -->
+
+<!-- Icon fonts (Font Awesome for envelope/GitHub/LinkedIn, Academicons for arXiv/ORCID).
+     Loaded without blocking rendering; the <noscript> fallback covers browsers without JS. -->
+<link rel="preload" href="{{ base_path }}/assets/css/fontawesome.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="{{ base_path }}/assets/css/fontawesome.css"></noscript>
+<link rel="preload" href="{{ base_path }}/assets/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.min.css"></noscript>
+
+<!-- Favicons -->
+<link rel="icon" href="{{ base_path }}/images/favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="{{ base_path }}/images/favicon.svg">
+<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-32x32.png" sizes="32x32">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/images/apple-touch-icon-180x180.png">
+<link rel="manifest" href="{{ base_path }}/images/manifest.json">
+<meta name="theme-color" content="#071424">
+
+<!-- Site styles -->
 <link rel="stylesheet" href="{{ '/assets/css/gavin-home.css' | relative_url }}">
 <link rel="stylesheet" href="{{ '/assets/css/gavin-layout-fix.css' | relative_url }}">
-<link rel="stylesheet" href="{{ '/assets/css/gavin-sidebar-icons.css' | relative_url }}">
+
+<!-- end custom head snippets -->

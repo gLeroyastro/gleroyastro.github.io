@@ -2,6 +2,7 @@
 layout: single
 permalink: /press/
 title: "Press & Media"
+description: "Media coverage of Gavin Leroy's research, including the JWST COSMOS-Web dark-matter map in National Geographic, AP, BBC Sky at Night and Physics World."
 author_profile: true
 ---
 

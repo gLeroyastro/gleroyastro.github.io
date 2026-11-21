@@ -2,6 +2,7 @@
 layout: single
 permalink: /research/
 title: "Research"
+description: "Gavin Leroy's research: weak gravitational lensing, galaxy-cluster detection for Euclid, JWST COSMOS-Web dark-matter maps and self-interacting dark matter."
 author_profile: true
 ---
 

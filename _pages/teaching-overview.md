@@ -2,6 +2,9 @@
 layout: single
 permalink: /teaching-overview/
 title: "Teaching & Mentoring"
+description: "Gavin Leroy's teaching in machine learning, scientific and high-performance computing at Durham University, and research supervision."
+redirect_from:
+  - /teaching/
 author_profile: true
 ---
 

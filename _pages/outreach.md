@@ -2,6 +2,7 @@
 layout: single
 permalink: /outreach/
 title: "Outreach & Community"
+description: "Public engagement by Gavin Leroy: Royal Society Summer Science Exhibition, school planetarium shows, media and community work."
 author_profile: true
 ---
 

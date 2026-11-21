@@ -18,6 +18,8 @@ main:
     url: /selected-talks/
   - title: "Teaching"
     url: /teaching-overview/
+  - title: "Press"
+    url: /press/
   - title: "Outreach"
     url: /outreach/
   - title: "CV"

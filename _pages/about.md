@@ -1,73 +1,81 @@
 ---
+layout: gavin-home
 permalink: /
-title: ""
-author_profile: true
+title: "About Me"
+author_profile: false
 redirect_from:
   - /about/
   - /about.html
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/gavin-home.css' | relative_url }}">
-
-<section class="gavin-hero">
-  <div class="gavin-hero__content">
-    <p class="gavin-hero__eyebrow">POSTDOCTORAL RESEARCHER · ASTROPHYSICS & COSMOLOGY</p>
-    <h1 class="gavin-hero__title">Gavin Leroy</h1>
-    <p class="gavin-hero__lead">
-      I am a postdoctoral researcher in astrophysics and cosmology at Durham University,
-      working with the Institute for Computational Cosmology and the Centre for Extragalactic Astronomy.
-    </p>
-    <p class="gavin-hero__text">
-      My research focuses on gravitational lensing, galaxy clusters, and dark matter cartography.
-      I develop methods that combine observational cosmology, signal processing, and machine learning
-      to reconstruct the distribution of matter in the Universe and detect galaxy clusters in next-generation surveys.
-    </p>
-    <div class="gavin-hero__actions">
-      <a class="btn btn--primary" href="/research/">Explore my research</a>
-      <a class="btn btn--light-outline" href="/cv/">View CV</a>
-    </div>
+<section class="gl-hero" aria-labelledby="gl-name">
+  <div class="gl-hero__visual" data-map-reveal aria-label="A reconstructed dark-matter mass map. Hover or tap to reveal the corresponding contours.">
+    <div class="gl-hero__map gl-hero__map--base" aria-hidden="true"></div>
+    <div class="gl-hero__map gl-hero__map--contours" aria-hidden="true"></div>
+    <div class="gl-hero__image-gradient" aria-hidden="true"></div>
+    <span class="gl-hero__hint" data-map-hint>Move over the map to reveal contours</span>
   </div>
-
-  <div class="gavin-hero__visual">
-    <div class="map-reveal" id="map-reveal"
-         style="--map-base: url('/images/massmap-base.jpg'); --map-overlay: url('/images/massmap-contours.jpg');">
-      <div class="map-reveal__base" aria-hidden="true"></div>
-      <div class="map-reveal__overlay" aria-hidden="true"></div>
-      <div class="map-reveal__scrim" aria-hidden="true"></div>
-      <div class="map-reveal__hint">Hover to reveal contours</div>
+  <div class="gl-hero__content">
+    <p class="gl-hero__eyebrow">POSTDOCTORAL RESEARCHER · ASTROPHYSICS & COSMOLOGY</p>
+    <h1 id="gl-name">Gavin Leroy</h1>
+    <p class="gl-hero__lead">Mapping the invisible Universe</p>
+    <p>I am a postdoctoral researcher at <strong>Durham University</strong>, working with the Institute for Computational Cosmology and the Centre for Extragalactic Astronomy.</p>
+    <p>I study <strong>gravitational lensing, galaxy clusters and dark matter</strong>. My research combines astronomical observations, signal processing and machine learning to map the matter distribution in the Universe and detect clusters in next-generation surveys.</p>
+    <div class="gl-hero__actions">
+      <a class="gl-button gl-button--primary" href="{{ '/research/' | relative_url }}">Explore my research</a>
+      <a class="gl-button gl-button--ghost" href="{{ '/publications/' | relative_url }}">Publications</a>
     </div>
+    <p class="gl-hero__collabs">Euclid · JWST COSMOS-Web · SuperBIT · SLICE</p>
   </div>
 </section>
-<section class="page__content">
 
-<section class="gavin-section" aria-labelledby="gavin-about-title">
-    <h2 id="gavin-about-title">From telescope images to dark-matter maps</h2>
-    <p class="gavin-intro">I am a <strong>postdoctoral researcher in astrophysics and cosmology at Durham University</strong>, based at the Institute for Computational Cosmology and the Centre for Extragalactic Astronomy. My research explores what galaxy clusters can tell us about dark matter, the formation of cosmic structures and the evolution of the Universe.</p>
-    <p class="gavin-intro">I combine weak gravitational lensing, signal processing and machine-learning methods to detect galaxy clusters and reconstruct the underlying distribution of matter. My work spans the entire analysis chain: calibrating space-telescope images, measuring galaxy shapes, developing detection algorithms and interpreting the resulting mass maps.</p>
-  </section>
-
-  <section class="gavin-section" aria-labelledby="gavin-themes-title">
-    <p class="gavin-kicker">RESEARCH</p>
-    <h2 id="gavin-themes-title">The questions that drive my work</h2>
-    <div class="gavin-topic-grid">
-      <article class="gavin-topic"><span class="gavin-topic-symbol" aria-hidden="true">γ</span><h3>Weak gravitational lensing</h3><p>Using subtle distortions in background-galaxy shapes to trace the total matter distribution, including dark matter.</p></article>
-      <article class="gavin-topic"><span class="gavin-topic-symbol" aria-hidden="true">δ</span><h3>Galaxy clusters &amp; dark matter</h3><p>Detecting clusters through their mass and investigating mergers as laboratories for self-interacting dark matter.</p></article>
-      <article class="gavin-topic"><span class="gavin-topic-symbol" aria-hidden="true">∇²</span><h3>Dark-matter cartography</h3><p>Reconstructing high-resolution mass maps from Euclid, JWST COSMOS-Web, SuperBIT and other lensing data.</p></article>
-      <article class="gavin-topic"><span class="gavin-topic-symbol" aria-hidden="true">VIS</span><h3>Methods &amp; calibration</h3><p>Developing multiscale detection methods and controlling detector effects, including Euclid VIS charge-transfer inefficiency.</p></article>
+<div class="gl-content">
+  <section class="gl-section" aria-labelledby="gl-research-heading">
+    <p class="gl-section__eyebrow">RESEARCH</p>
+    <h2 id="gl-research-heading">From galaxy shapes to maps of dark matter</h2>
+    <p class="gl-section__intro">Galaxy clusters are powerful laboratories for understanding dark matter, how cosmic structures form and how the Universe evolves. I develop and apply gravitational-lensing methods to measure their mass and find them in astronomical surveys.</p>
+    <div class="gl-card-grid">
+      <article class="gl-card">
+        <p class="gl-card__number">01</p>
+        <h3>Weak-lensing galaxy clusters</h3>
+        <p>Building methods and catalogues to detect galaxy clusters through their weak gravitational-lensing signal in Euclid data.</p>
+      </article>
+      <article class="gl-card">
+        <p class="gl-card__number">02</p>
+        <h3>Dark-matter cartography</h3>
+        <p>Reconstructing the projected distribution of matter in the COSMOS-Web field, using space-telescope observations and multiscale analysis.</p>
+      </article>
+      <article class="gl-card">
+        <p class="gl-card__number">03</p>
+        <h3>Dark-matter physics</h3>
+        <p>Investigating merging galaxy clusters and their potential to constrain self-interacting dark matter.</p>
+      </article>
     </div>
-    <p class="gavin-more"><a class="gavin-text-link" href="{{ '/research/' | relative_url }}">More about my research &rarr;</a></p>
   </section>
 
-  <section class="gavin-section gavin-feature" aria-labelledby="gavin-paper-title">
-    <p class="gavin-kicker">FEATURED PUBLICATION · NATURE ASTRONOMY · 2026</p>
-    <h2 id="gavin-paper-title">An ultra-high-resolution map of (dark) matter</h2>
-    <p>I was an <strong>equal-contribution author</strong> of a study using JWST observations from COSMOS-Web to reconstruct an exceptionally detailed map of matter. I contributed to the mass-map reconstruction, multiscale detection of galaxy groups and clusters, and the validation of the resulting catalogue.</p>
-    <p><a class="gavin-text-link" href="https://doi.org/10.1038/s41550-025-02763-9">Read the paper &rarr;</a></p>
+  <section class="gl-section gl-section--split" aria-labelledby="gl-methods-heading">
+    <div>
+      <p class="gl-section__eyebrow">METHODS & COLLABORATIONS</p>
+      <h2 id="gl-methods-heading">From pixels to cosmology</h2>
+    </div>
+    <div>
+      <p>My work spans the full analysis chain: image calibration and systematic effects in Euclid VIS, galaxy-shape measurements, weak-lensing mass reconstruction, and signal-processing and machine-learning methods for cluster detection.</p>
+      <p>I contribute to the <strong>Euclid Consortium</strong>, <strong>COSMOS-Web</strong>, <strong>SuperBIT</strong> and <strong>SLICE</strong>, collaborating across international teams to turn new observations into reliable measurements of cosmic structure.</p>
+      <a class="gl-text-link" href="{{ '/research/' | relative_url }}">Learn more about my research →</a>
+    </div>
   </section>
 
-  <section class="gavin-section" aria-labelledby="gavin-collabs-title">
-    <p class="gavin-kicker">COLLABORATIONS</p>
-    <h2 id="gavin-collabs-title">Large surveys, collaborative science</h2>
-    <p class="gavin-intro">I work with the <strong>Euclid Consortium</strong>, <strong>COSMOS-Web</strong>, <strong>SuperBIT</strong> and <strong>SLICE</strong>. At Euclid, I lead the DR1 weak-lensing galaxy-cluster catalogue paper and co-lead a key project studying self-interacting dark matter in merging galaxy clusters. I am also involved in Euclid VIS calibration and quality control.</p>
+  <section class="gl-section gl-section--contact" aria-labelledby="gl-contact-heading">
+    <p class="gl-section__eyebrow">CONNECT</p>
+    <h2 id="gl-contact-heading">Research, collaborations & outreach</h2>
+    <p>I welcome opportunities to discuss gravitational lensing, dark-matter mapping, collaborations and science communication.</p>
+    <div class="gl-inline-links">
+      <a href="{{ '/press/' | relative_url }}">Press & media</a>
+      <a href="{{ '/outreach/' | relative_url }}">Outreach</a>
+      <a href="{{ '/cv/' | relative_url }}">Academic CV</a>
+      <a href="https://github.com/gLeroyastro">GitHub</a>
+    </div>
   </section>
+</div>
 
+<script defer src="{{ '/assets/js/gavin-map-reveal.js' | relative_url }}"></script>

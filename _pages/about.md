@@ -2,7 +2,7 @@
 layout: gavin-home
 permalink: /
 title: "About Me"
-author_profile: false
+author_profile: true
 redirect_from:
   - /about/
   - /about.html
@@ -29,7 +29,12 @@ redirect_from:
   </div>
 </section>
 
-<div class="gl-content">
+<div class="gl-below-hero">
+  <aside class="sidebar gl-profile-sidebar" aria-label="Academic profile">
+    {% include author-profile.html %}
+  </aside>
+
+  <div class="gl-content">
   <section class="gl-section" aria-labelledby="gl-research-heading">
     <p class="gl-section__eyebrow">RESEARCH</p>
     <h2 id="gl-research-heading">From galaxy shapes to maps of dark matter</h2>
@@ -76,6 +81,7 @@ redirect_from:
       <a href="https://github.com/gLeroyastro">GitHub</a>
     </div>
   </section>
+</div>
 </div>
 
 <script defer src="{{ '/assets/js/gavin-map-reveal.js' | relative_url }}"></script>

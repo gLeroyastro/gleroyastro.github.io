@@ -3,11 +3,12 @@ title: "Euclid: Building the catalogue of galaxy clusters detected through weak 
 collection: publications
 category: theses
 permalink: /publication/phd-thesis/
-excerpt: "PhD thesis. A complete method to detect galaxy clusters from their total mass distribution, including dark matter, applied to simulated and real (HSC-SSP) data, with a quantitative characterisation of the associated biases."
+excerpt: ""
 date: 2023-12-01
 venue: "PhD thesis, Université Paris-Saclay / CEA Saclay"
 paperurl: "https://theses.hal.science/tel-04536654"
 citation: "Leroy, G. (2023). Euclid: Building the catalogue of galaxy clusters detected through weak gravitational lensing. PhD thesis, Université Paris-Saclay."
+bibtexurl: "/files/bib/leroy2023thesis.bib"
 ---
 
 Supervised by Gabriel W. Pratt and Sandrine Pires at CEA Saclay.

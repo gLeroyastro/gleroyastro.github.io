@@ -1,0 +1,10 @@
+{% comment %} BibTeX entry with copy and download buttons. Parameter: key (from _data/bibtex.yml) {% endcomment %}
+{% assign entry = site.data.bibtex[include.key] %}
+<details class="gl-cite">
+  <summary>{{ entry.label }}</summary>
+  <pre><code id="bib-{{ include.key }}">{{ entry.bib | strip | escape }}</code></pre>
+  <p class="gl-cite__actions">
+    <button type="button" class="gl-cite__copy" data-copy="#bib-{{ include.key }}">Copy BibTeX</button>
+    <a href="{{ '/files/bib/' | append: include.key | append: '.bib' | relative_url }}" download>Download .bib</a>
+  </p>
+</details>

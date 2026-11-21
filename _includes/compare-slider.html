@@ -1,0 +1,25 @@
+{% comment %}
+Before/after image comparison with a keyboard-accessible range input.
+Parameters: before, after (paths without extension; need .webp and .jpg),
+            before_label, after_label, alt, width, height, caption, credit
+{% endcomment %}
+<figure class="gl-figure gl-figure--wide">
+  <div class="gl-compare" data-compare style="--pos: 50%; aspect-ratio: {{ include.width }} / {{ include.height }};">
+    <picture class="gl-compare__img">
+      <source srcset="{{ include.before | append: '.webp' | relative_url }}" type="image/webp">
+      <img src="{{ include.before | append: '.jpg' | relative_url }}" alt="{{ include.alt }}" width="{{ include.width }}" height="{{ include.height }}" loading="lazy" decoding="async">
+    </picture>
+    <picture class="gl-compare__img gl-compare__img--after" aria-hidden="true">
+      <source srcset="{{ include.after | append: '.webp' | relative_url }}" type="image/webp">
+      <img src="{{ include.after | append: '.jpg' | relative_url }}" alt="" width="{{ include.width }}" height="{{ include.height }}" loading="lazy" decoding="async">
+    </picture>
+    <span class="gl-compare__label gl-compare__label--before" aria-hidden="true">{{ include.before_label }}</span>
+    <span class="gl-compare__label gl-compare__label--after" aria-hidden="true">{{ include.after_label }}</span>
+    <span class="gl-compare__handle" aria-hidden="true"></span>
+    <input class="gl-compare__range" type="range" min="0" max="100" value="50" aria-label="Slide to compare: {{ include.before_label }} (left) and {{ include.after_label }} (right)">
+  </div>
+  <figcaption>
+    {{ include.caption | markdownify | remove: '<p>' | remove: '</p>' | strip }}
+    {% if include.credit %}<span class="gl-figure__credit">{{ include.credit }}</span>{% endif %}
+  </figcaption>
+</figure>

@@ -1,0 +1,6 @@
+# Copy this file to _data/data_releases.yml once a dataset is public.
+# Each entry appears under "Data, code and citation" on the Research page.
+#
+# - title: "COSMOS-Web weak-lensing mass map and cluster catalogue"
+#   description: "KS+ mass map (FITS) and group/cluster catalogue from Scognamiglio, Leroy et al. 2026."
+#   doi: "10.5281/zenodo.XXXXXXX"

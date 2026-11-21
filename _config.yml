@@ -84,10 +84,8 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  lead:
-    title: 'Peer-reviewed: first or equal-contribution author'
   manuscripts:
-    title: 'Peer-reviewed: co-author and collaboration papers'
+    title: 'Journal articles'
   submitted:
     title: 'Submitted'
   theses:

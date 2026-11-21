@@ -385,3 +385,11 @@ body:has(> .gl-home) > .page__footer {
 /* The sidebar name is a paragraph (not a heading) so the page outline stays
    h1 > h2 > h3; keep it looking like the old heading. */
 .author__name { font-weight: 700; }
+
+/* Phones: the menu wraps onto several rows (about 130 px), but the theme fixes the
+   header to the top and only reserves 70 px, so it covered the start of every page.
+   Let the header sit in the page flow and scroll away instead. */
+@media (max-width: 720px) {
+  body { padding-top: 0 !important; }
+  .masthead { position: relative !important; }
+}

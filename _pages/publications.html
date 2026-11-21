@@ -1,41 +1,28 @@
 ---
 layout: archive
 title: "Publications"
-description: "Publications by Gavin Leroy in Nature Astronomy and Astronomy & Astrophysics on weak lensing, galaxy clusters and Euclid, with his contribution to each paper."
+description: "Publications by Gavin Leroy in Nature Astronomy and Astronomy & Astrophysics on weak lensing, galaxy clusters and Euclid."
 permalink: /publications/
 author_profile: true
 ---
-
-<p>Each entry says what I did on the paper. In large collaborations such as Euclid, the author list alone doesn't show this. An asterisk (*) in a citation marks authors who contributed equally.</p>
 
 <p>Full list: <a href="{{ site.author.arxiv }}">arXiv author page</a> · <a href="{{ site.author.orcid }}">ORCID</a>{% if site.author.googlescholar %} · <a href="{{ site.author.googlescholar }}">Google Scholar</a>{% endif %}</p>
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-    {% if category[0] == 'submitted' %}
-      <h2>In preparation</h2><hr />
-      <p>Two first-author papers, to be completed in 2026.</p>
-    {% endif %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
+{% comment %} Journal articles and submitted papers in one list, newest first; then work in preparation; then the thesis. {% endcomment %}
+{% for post in site.publications reversed %}
+  {% if post.category != 'theses' %}
     {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+  {% endif %}
+{% endfor %}
 
+<h2>In preparation</h2><hr />
+<p>Two first-author papers, to be completed in 2026.</p>
 
-
+<h2>Thesis</h2><hr />
+{% for post in site.publications reversed %}
+  {% if post.category == 'theses' %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}

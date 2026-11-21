@@ -28,6 +28,14 @@ I also work in the Euclid VIS instrument ground-segment operational unit on **Ch
 
 I am part of the **COSMOS-Web collaboration**, contributing to the calibration and validation of galaxy-shape measurements and to dark-matter mass-map reconstruction. In our 2026 *Nature Astronomy* study, JWST data made it possible to map projected matter at exceptionally high resolution. I reconstructed the mass map with the improved KS+ method (the paper's main figure), applied my multiscale detection algorithm to produce the first catalogue of galaxy groups and clusters in it, and validated that catalogue against X-ray and optical data.
 
+{% include compare-slider.html
+   before="/images/massmap-base" after="/images/massmap-contours"
+   before_label="Mass map" after_label="With contours"
+   width="1800" height="1746"
+   alt="Weak-lensing mass map of the COSMOS-Web field: bright blue peaks mark concentrations of mostly dark matter, connected by fainter filaments."
+   caption="Projected matter in the COSMOS-Web field, reconstructed from JWST weak lensing with the KS+ method. Bright peaks are galaxy groups and clusters, mostly made of dark matter. **Drag the slider** (or use the arrow keys) to overlay the mass contours."
+   credit="Scognamiglio, Leroy et al. 2026, Nature Astronomy" %}
+
 [Read the Nature Astronomy paper](https://doi.org/10.1038/s41550-025-02763-9)
 
 ## Merging clusters and self-interacting dark matter
@@ -42,4 +50,28 @@ My background in physics, signal processing and machine learning informs my rese
 
 **Euclid Consortium · COSMOS-Web · SuperBIT · SLICE**
 
-For selected papers, see [Publications](/publications/). For professional experience and responsibilities, see my [CV](/cv/).
+## Data, code and citation {#data}
+
+<ul class="gl-data-list">
+  <li><strong>Free-to-read papers:</strong> <a href="{{ site.author.arxiv }}">arXiv preprints</a> and my <a href="https://theses.hal.science/tel-04536654">PhD thesis on HAL</a> (open access).</li>
+  <li><strong>Code:</strong> <a href="https://github.com/{{ site.author.github }}">GitHub</a>.</li>
+  {% for release in site.data.data_releases %}
+  <li><strong>{{ release.title }}:</strong> {{ release.description }} <a href="https://doi.org/{{ release.doi }}">doi:{{ release.doi }}</a></li>
+  {% endfor %}
+</ul>
+
+{% if jekyll.environment == "development" and site.data.data_releases == nil %}
+<p class="gl-draft-note"><strong>Preview only, hidden on the live site:</strong> once a dataset is public (for example the COSMOS-Web mass map and cluster catalogue on Zenodo), add it to <code>_data/data_releases.yml</code> and it will be listed here with its DOI.</p>
+{% endif %}
+
+### How to cite
+
+If you use these results, please cite the papers below. Each entry has a ready-to-copy BibTeX record.
+
+{% include cite-block.html key="scognamiglio2026" %}
+{% include cite-block.html key="leroy2023" %}
+{% include cite-block.html key="euclidq1vis2026" %}
+{% include cite-block.html key="chappuis2026" %}
+{% include cite-block.html key="leroy2023thesis" %}
+
+For all papers, see [Publications](/publications/). For professional experience and responsibilities, see my [CV](/cv/).

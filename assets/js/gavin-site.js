@@ -31,4 +31,26 @@
       list.style.display = open ? 'block' : '';
     });
   });
+
+  // Before/after comparison sliders: the range input drives the --pos variable.
+  document.querySelectorAll('[data-compare]').forEach(function (box) {
+    var range = box.querySelector('input[type=range]');
+    if (!range) return;
+    var update = function () { box.style.setProperty('--pos', range.value + '%'); };
+    range.addEventListener('input', update);
+    update();
+  });
+
+  // "Copy BibTeX" buttons.
+  document.querySelectorAll('[data-copy]').forEach(function (button) {
+    button.addEventListener('click', function () {
+      var source = document.querySelector(button.getAttribute('data-copy'));
+      if (!source || !navigator.clipboard) return;
+      navigator.clipboard.writeText(source.textContent).then(function () {
+        var label = button.textContent;
+        button.textContent = 'Copied';
+        setTimeout(function () { button.textContent = label; }, 1500);
+      });
+    });
+  });
 })();

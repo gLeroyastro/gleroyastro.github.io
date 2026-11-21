@@ -1,0 +1,29 @@
+{% comment %}
+Responsive research figure. Serves WebP with a JPEG fallback.
+Parameters:
+  src      image path without extension, e.g. "/images/research/my-figure" (needs .webp and .jpg)
+  alt      text alternative describing what the figure shows
+  width, height  intrinsic pixel size (prevents layout shift)
+  caption  caption (Markdown allowed)
+  credit   optional credit line
+  wide     optional: true lets the figure use the full content width
+  src2 / alt2 / width2 / height2  optional second panel shown side by side
+{% endcomment %}
+<figure class="gl-figure{% if include.wide %} gl-figure--wide{% endif %}{% if include.src2 %} gl-figure--pair{% endif %}">
+  <div class="gl-figure__panels">
+    {% if include.src2 %}
+    <picture>
+      <source srcset="{{ include.src2 | append: '.webp' | relative_url }}" type="image/webp">
+      <img src="{{ include.src2 | append: '.jpg' | relative_url }}" alt="{{ include.alt2 }}" width="{{ include.width2 }}" height="{{ include.height2 }}" loading="lazy" decoding="async">
+    </picture>
+    {% endif %}
+    <picture>
+      <source srcset="{{ include.src | append: '.webp' | relative_url }}" type="image/webp">
+      <img src="{{ include.src | append: '.jpg' | relative_url }}" alt="{{ include.alt }}" width="{{ include.width }}" height="{{ include.height }}" loading="lazy" decoding="async">
+    </picture>
+  </div>
+  <figcaption>
+    {{ include.caption | markdownify | remove: '<p>' | remove: '</p>' | strip }}
+    {% if include.credit %}<span class="gl-figure__credit">{{ include.credit }}</span>{% endif %}
+  </figcaption>
+</figure>

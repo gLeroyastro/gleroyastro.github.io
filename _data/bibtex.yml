@@ -1,0 +1,73 @@
+# BibTeX entries shown in "How to cite" (Research page) and served as
+# /files/bib/<key>.bib (linked as "Download BibTeX" on each publication).
+# Journal entries come from the publishers' DOI metadata (Crossref), tidied by hand.
+
+scognamiglio2026:
+  label: "Scognamiglio, Leroy et al. 2026, Nature Astronomy"
+  bib: |
+    @article{Scognamiglio2026,
+      author  = {Scognamiglio, Diana and Leroy, Gavin and Harvey, David and Massey, Richard and Rhodes, Jason and others},
+      title   = {An ultra-high-resolution map of (dark) matter},
+      journal = {Nature Astronomy},
+      year    = {2026},
+      volume  = {10},
+      number  = {4},
+      pages   = {573--582},
+      doi     = {10.1038/s41550-025-02763-9},
+      note    = {D. Scognamiglio and G. Leroy contributed equally}
+    }
+
+leroy2023:
+  label: "Leroy et al. 2023, A&A 678, A125"
+  bib: |
+    @article{Leroy2023,
+      author  = {Leroy, G. and Pires, S. and Pratt, G. W. and Giocoli, C.},
+      title   = {Fast multi-scale galaxy cluster detection with weak lensing: Towards a mass-selected sample},
+      journal = {Astronomy \& Astrophysics},
+      year    = {2023},
+      volume  = {678},
+      pages   = {A125},
+      doi     = {10.1051/0004-6361/202346510},
+      eprint  = {2304.01812},
+      archivePrefix = {arXiv}
+    }
+
+chappuis2026:
+  label: "Chappuis et al. 2026, A&A 710, A318"
+  bib: |
+    @article{Chappuis2026,
+      author  = {Chappuis, L. and Pires, S. and Pratt, G. W. and Leroy, G. and Daurelle, A. and Giocoli, C. and Carbone, C.},
+      title   = {Multi-scale weak lensing detection of galaxy clusters with source redshift tomography},
+      journal = {Astronomy \& Astrophysics},
+      year    = {2026},
+      volume  = {710},
+      pages   = {A318},
+      doi     = {10.1051/0004-6361/202659795}
+    }
+
+euclidq1vis2026:
+  label: "Euclid Collaboration: McCracken et al. 2026, A&A 711, A2"
+  bib: |
+    @article{EuclidQ1VIS2026,
+      author  = {{Euclid Collaboration} and McCracken, H. J. and Benson, K. and Dolding, C. and Flanet, T. and Grenet, C. and Herent, O. and Hudelot, P. and Laigle, C. and Leroy, G. and others},
+      title   = {Euclid Quick Data Release (Q1): II. VIS processing and data products},
+      journal = {Astronomy \& Astrophysics},
+      year    = {2026},
+      volume  = {711},
+      pages   = {A2},
+      doi     = {10.1051/0004-6361/202554594},
+      eprint  = {2503.15303},
+      archivePrefix = {arXiv}
+    }
+
+leroy2023thesis:
+  label: "Leroy 2023, PhD thesis"
+  bib: |
+    @phdthesis{Leroy2023Thesis,
+      author  = {Leroy, Gavin},
+      title   = {Euclid : construction du catalogue d'amas de galaxies d{\'e}tect{\'e}s par effet de lentille gravitationnelle faible},
+      school  = {Universit{\'e} Paris-Saclay},
+      year    = {2023},
+      url     = {https://theses.hal.science/tel-04536654},
+      note    = {HAL: tel-04536654}
+    }
